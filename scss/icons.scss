@@ -1,0 +1,5 @@
+// main: material.scss
+
+.icon {
+  @include variations("", color, $lightbg-text);
+}
