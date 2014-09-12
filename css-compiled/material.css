@@ -814,7 +814,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .radio input[type=radio][disabled] ~ .check {
   background-color: rgba(0, 0, 0, 0.84); }
 
-.form-control-wrapper .form-control, .form-control-wrapper .form-control:focus, .form-control-wrapper .form-control.focus, .form-control, .form-control:focus, .form-control.focus {
+fieldset[disabled] .form-control, fieldset[disabled] .form-control:focus, fieldset[disabled] .form-control.focus, .form-control-wrapper .form-control, .form-control-wrapper .form-control:focus, .form-control-wrapper .form-control.focus, .form-control, .form-control:focus, .form-control.focus {
   height: 28px;
   padding: 0;
   float: none;
@@ -823,7 +823,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-radius: 0;
   background: transparent;
   border-bottom: 1px solid #757575; }
-  .form-control-wrapper .form-control:disabled, .form-control-wrapper .form-control:focus:disabled, .form-control-wrapper .form-control.focus:disabled, .form-control:disabled, .form-control:focus:disabled, .form-control.focus:disabled {
+  fieldset[disabled] .form-control:disabled, fieldset[disabled] .form-control:focus:disabled, fieldset[disabled] .form-control.focus:disabled, .form-control-wrapper .form-control:disabled, .form-control-wrapper .form-control:focus:disabled, .form-control-wrapper .form-control.focus:disabled, .form-control:disabled, .form-control:focus:disabled, .form-control.focus:disabled {
     border-style: dashed; }
 
 select.form-control {
