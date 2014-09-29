@@ -692,21 +692,6 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     left: 10px;
     top: 2px;
     transition-duration: 0.2s; }
-  .radio label .ripple {
-    background-color: rgba(0, 0, 0, 0.84);
-    left: 0;
-    top: -8px;
-    height: 34px;
-    width: 34px;
-    border-radius: 100%;
-    transform: scale(0);
-    transition: transform .1s, opacity 0.2s 0.4s;
-    z-index: 1;
-    opacity: 0.2;
-    margin: 0; }
-    .radio label .ripple.animate {
-      transform: scale(1);
-      opacity: 0; }
   .radio label .circle {
     border: 2px solid rgba(0, 0, 0, 0.84);
     height: 15px;
@@ -718,6 +703,32 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0.84);
     transform: scale(0); }
+  .radio label .check:after {
+    display: block;
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.84);
+    left: -18px;
+    top: -18px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    z-index: 1;
+    opacity: 0;
+    margin: 0;
+    transform: scale(1.5); }
+  .radio label input[type=radio]:not(:checked) ~ .check:after {
+    -webkit-animation: rippleOff 500ms;
+    -moz-animation: rippleOff 500ms;
+    -ms-animation: rippleOff 500ms;
+    -o-animation: rippleOff 500ms;
+    animation: rippleOff 500ms; }
+  .radio label input[type=radio]:checked ~ .check:after {
+    -webkit-animation: rippleOn 500ms;
+    -moz-animation: rippleOn 500ms;
+    -ms-animation: rippleOn 500ms;
+    -o-animation: rippleOn 500ms;
+    animation: rippleOn 500ms; }
 .radio input[type=radio]:checked ~ .check, .radio-default input[type=radio]:checked ~ .check {
   background-color: rgba(0, 0, 0, 0.84); }
 .radio-primary input[type=radio]:checked ~ .check {
@@ -822,6 +833,76 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .radio input[type=radio][disabled] ~ .check {
   background-color: rgba(0, 0, 0, 0.84); }
 
+@-webkit-keyframes rippleOn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@-moz-keyframes rippleOn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@-ms-keyframes rippleOn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@-o-keyframes rippleOn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@keyframes rippleOn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@-webkit-keyframes rippleOff {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@-moz-keyframes rippleOff {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@-ms-keyframes rippleOn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@-o-keyframes rippleOff {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
+@keyframes rippleOff {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 0; } }
 fieldset[disabled] .form-control, fieldset[disabled] .form-control:focus, fieldset[disabled] .form-control.focus, .form-control-wrapper .form-control, .form-control-wrapper .form-control:focus, .form-control-wrapper .form-control.focus, .form-control, .form-control:focus, .form-control.focus {
   padding: 0;
   float: none;
