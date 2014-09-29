@@ -902,8 +902,6 @@ select[multiple].form-control, select[multiple].form-control:focus, select[multi
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0; }
-  .form-control-wrapper select ~ .material-input:before {
-    bottom: 1px; }
   .form-control-wrapper select ~ .material-input:after {
     display: none; }
 
@@ -1291,8 +1289,12 @@ body .well, body .jumbotron, .container .well, .container .jumbotron, .container
     background-color: #795548; }
   body .well-material-lightgrey, body .jumbotron-material-lightgrey, .container .well-material-lightgrey, .container .jumbotron-material-lightgrey, .container-fluid .well-material-lightgrey, .container-fluid .jumbotron-material-lightgrey {
     background-color: #ECECEC; }
-body [class^="well well-material"], .container [class^="well well-material"], .container-fluid [class^="well well-material"] {
+body [class^="well well-material"], body [class^="well well-material"] .form-control, .container [class^="well well-material"], .container [class^="well well-material"] .form-control, .container-fluid [class^="well well-material"], .container-fluid [class^="well well-material"] .form-control {
   color: rgba(255, 255, 255, 0.84); }
+body [class^="well well-material"] .form-control, .container [class^="well well-material"] .form-control, .container-fluid [class^="well well-material"] .form-control {
+  border-bottom-color: rgba(255, 255, 255, 0.84); }
+body [class^="well well-material"] .option, .container [class^="well well-material"] .option, .container-fluid [class^="well well-material"] .option {
+  color: rgba(0, 0, 0, 0.84); }
 
 .modal-content {
   border-radius: 0;
