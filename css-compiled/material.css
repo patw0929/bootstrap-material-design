@@ -1290,52 +1290,8 @@ body .well, body .jumbotron, .container .well, .container .jumbotron, .container
     background-color: #795548; }
   body .well-material-lightgrey, body .jumbotron-material-lightgrey, .container .well-material-lightgrey, .container .jumbotron-material-lightgrey, .container-fluid .well-material-lightgrey, .container-fluid .jumbotron-material-lightgrey {
     background-color: #ECECEC; }
-  body .well, body .well-default, body .jumbotron, body .jumbotron-default, .container .well, .container .well-default, .container .jumbotron, .container .jumbotron-default, .container-fluid .well, .container-fluid .well-default, .container-fluid .jumbotron, .container-fluid .jumbotron-default {
-    color: rgba(0, 0, 0, 0.84); }
-  body .well-primary, body .jumbotron-primary, .container .well-primary, .container .jumbotron-primary, .container-fluid .well-primary, .container-fluid .jumbotron-primary {
-    color: #4285F4; }
-  body .well-success, body .jumbotron-success, .container .well-success, .container .jumbotron-success, .container-fluid .well-success, .container-fluid .jumbotron-success {
-    color: #0F9D58; }
-  body .well-info, body .jumbotron-info, .container .well-info, .container .jumbotron-info, .container-fluid .well-info, .container-fluid .jumbotron-info {
-    color: #03A9F4; }
-  body .well-warning, body .jumbotron-warning, .container .well-warning, .container .jumbotron-warning, .container-fluid .well-warning, .container-fluid .jumbotron-warning {
-    color: #FF5722; }
-  body .well-danger, body .jumbotron-danger, .container .well-danger, .container .jumbotron-danger, .container-fluid .well-danger, .container-fluid .jumbotron-danger {
-    color: #F44336; }
-  body .well-material-red, body .jumbotron-material-red, .container .well-material-red, .container .jumbotron-material-red, .container-fluid .well-material-red, .container-fluid .jumbotron-material-red {
-    color: #F44336; }
-  body .well-material-pink, body .jumbotron-material-pink, .container .well-material-pink, .container .jumbotron-material-pink, .container-fluid .well-material-pink, .container-fluid .jumbotron-material-pink {
-    color: #E91E63; }
-  body .well-material-purple, body .jumbotron-material-purple, .container .well-material-purple, .container .jumbotron-material-purple, .container-fluid .well-material-purple, .container-fluid .jumbotron-material-purple {
-    color: #9C27B0; }
-  body .well-material-deeppurple, body .jumbotron-material-deeppurple, .container .well-material-deeppurple, .container .jumbotron-material-deeppurple, .container-fluid .well-material-deeppurple, .container-fluid .jumbotron-material-deeppurple {
-    color: #673AB7; }
-  body .well-material-indigo, body .jumbotron-material-indigo, .container .well-material-indigo, .container .jumbotron-material-indigo, .container-fluid .well-material-indigo, .container-fluid .jumbotron-material-indigo {
-    color: #3F51B5; }
-  body .well-material-lightblue, body .jumbotron-material-lightblue, .container .well-material-lightblue, .container .jumbotron-material-lightblue, .container-fluid .well-material-lightblue, .container-fluid .jumbotron-material-lightblue {
-    color: #03A9F4; }
-  body .well-material-cyan, body .jumbotron-material-cyan, .container .well-material-cyan, .container .jumbotron-material-cyan, .container-fluid .well-material-cyan, .container-fluid .jumbotron-material-cyan {
-    color: #00BCD4; }
-  body .well-material-teal, body .jumbotron-material-teal, .container .well-material-teal, .container .jumbotron-material-teal, .container-fluid .well-material-teal, .container-fluid .jumbotron-material-teal {
-    color: #009688; }
-  body .well-material-lightgreen, body .jumbotron-material-lightgreen, .container .well-material-lightgreen, .container .jumbotron-material-lightgreen, .container-fluid .well-material-lightgreen, .container-fluid .jumbotron-material-lightgreen {
-    color: #8BC34A; }
-  body .well-material-lime, body .jumbotron-material-lime, .container .well-material-lime, .container .jumbotron-material-lime, .container-fluid .well-material-lime, .container-fluid .jumbotron-material-lime {
-    color: #CDDC39; }
-  body .well-material-lightyellow, body .jumbotron-material-lightyellow, .container .well-material-lightyellow, .container .jumbotron-material-lightyellow, .container-fluid .well-material-lightyellow, .container-fluid .jumbotron-material-lightyellow {
-    color: #FFEB3B; }
-  body .well-material-orange, body .jumbotron-material-orange, .container .well-material-orange, .container .jumbotron-material-orange, .container-fluid .well-material-orange, .container-fluid .jumbotron-material-orange {
-    color: #FF9800; }
-  body .well-material-deeporange, body .jumbotron-material-deeporange, .container .well-material-deeporange, .container .jumbotron-material-deeporange, .container-fluid .well-material-deeporange, .container-fluid .jumbotron-material-deeporange {
-    color: #FF5722; }
-  body .well-material-grey, body .jumbotron-material-grey, .container .well-material-grey, .container .jumbotron-material-grey, .container-fluid .well-material-grey, .container-fluid .jumbotron-material-grey {
-    color: #9E9E9E; }
-  body .well-material-bluegrey, body .jumbotron-material-bluegrey, .container .well-material-bluegrey, .container .jumbotron-material-bluegrey, .container-fluid .well-material-bluegrey, .container-fluid .jumbotron-material-bluegrey {
-    color: #607D8B; }
-  body .well-material-brown, body .jumbotron-material-brown, .container .well-material-brown, .container .jumbotron-material-brown, .container-fluid .well-material-brown, .container-fluid .jumbotron-material-brown {
-    color: #795548; }
-  body .well-material-lightgrey, body .jumbotron-material-lightgrey, .container .well-material-lightgrey, .container .jumbotron-material-lightgrey, .container-fluid .well-material-lightgrey, .container-fluid .jumbotron-material-lightgrey {
-    color: #ECECEC; }
+body [class^="well well-material"], .container [class^="well well-material"], .container-fluid [class^="well well-material"] {
+  color: #FFF; }
 
 .modal-content {
   border-radius: 0;

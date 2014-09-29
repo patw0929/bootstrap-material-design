@@ -52,7 +52,9 @@ body, .container, .container-fluid {
     }
 
     @include variations("", background-color, #FFF);
-    @include variations("", color, $lightbg-text);
+  }
+  [class^="well well-material"] {
+    color: #FFF;
   }
 }
 
