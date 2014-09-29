@@ -42,6 +42,7 @@ legend {
 
 body, .container, .container-fluid {
   .well, .jumbotron {
+    color: $lightbg-text;
     background-color: #fff;
     @extend %shadow-z-2;
     border-radius: 2px;
@@ -54,7 +55,7 @@ body, .container, .container-fluid {
     @include variations("", background-color, #FFF);
   }
   [class^="well well-material"] {
-    color: #FFF;
+    color: $darkbg-text;
   }
 }
 

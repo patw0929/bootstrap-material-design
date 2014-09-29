@@ -1240,6 +1240,7 @@ legend {
   border-bottom: 0; }
 
 body .well, body .jumbotron, .container .well, .container .jumbotron, .container-fluid .well, .container-fluid .jumbotron {
+  color: rgba(0, 0, 0, 0.84);
   background-color: #fff;
   border-radius: 2px;
   border: 0; }
@@ -1292,7 +1293,7 @@ body .well, body .jumbotron, .container .well, .container .jumbotron, .container
   body .well-material-lightgrey, body .jumbotron-material-lightgrey, .container .well-material-lightgrey, .container .jumbotron-material-lightgrey, .container-fluid .well-material-lightgrey, .container-fluid .jumbotron-material-lightgrey {
     background-color: #ECECEC; }
 body [class^="well well-material"], .container [class^="well well-material"], .container-fluid [class^="well well-material"] {
-  color: #FFF; }
+  color: rgba(255, 255, 255, 0.84); }
 
 .modal-content {
   border-radius: 0;
