@@ -1,9 +1,5 @@
 // main: material.less
 body, .container, .container-fluid {
-  .well {
-    @include variations("", background-color, #FFF);
-  }
-
   [class^="well-material"] {
     &, .form-control, .floating-label {
       color: $darkbg-text;
@@ -29,7 +25,6 @@ body, .container, .container-fluid {
   }
 
   [class="well"], [class^="well "], [class="jumbotron"], [class^="jumbotron "] {
-    background-color: #fff;
     &, .form-control, .floating-label {
       color: $lightbg-text;
     }
@@ -57,6 +52,7 @@ body, .container, .container-fluid {
   }
 
   .well, .jumbotron, [class^="well-material"] {
+    background-color: #fff;
     padding: 19px;
     margin-bottom: 20px;
     @extend %shadow-z-2;
@@ -65,5 +61,9 @@ body, .container, .container-fluid {
     p {
       font-weight: 300;
     }
+  }
+
+  .well {
+    @include variations("", background-color, #FFF);
   }
 }
