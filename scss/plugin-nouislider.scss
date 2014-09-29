@@ -74,6 +74,7 @@
 }
 
 .noUi-origin {
+  margin: 0;
   border-radius: 0;
   height: 2px;
   background: #c8c8c8;
@@ -99,6 +100,11 @@
   border: 1px solid;
 }
 
+.noUi-horizontal {
+  height: 2px;
+  margin: 15px 0;
+}
+
 .noUi-horizontal .noUi-handle:active {
   transform: scale(2.5);
 }
@@ -112,7 +118,11 @@
 }
 
 .slider {
+  background: #c8c8c8;
+}
+
+.slider {
+  @include variations(" .noUi-connect", background-color, $primary);
   @include variations(" .noUi-handle", background-color, $primary);
   @include variations(" .noUi-handle", border-color, $primary);
-  @include variations("", background-color, $primary);
 }
