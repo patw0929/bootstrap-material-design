@@ -20,7 +20,7 @@ $(function (){
             $(this).after("<div class=floating-label>" + placeholder + "</div>");
         }
 
-        if ($(this).val() === "") {
+        if ($(this).is(":empty") || $(this).val() === null || $(this).val() == "undefined" || $(this).val() === "") {
             $(this).addClass("empty");
         }
 

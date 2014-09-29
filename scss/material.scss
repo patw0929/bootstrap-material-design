@@ -55,7 +55,7 @@ body, .container, .container-fluid {
     @include variations("", background-color, #FFF);
   }
   [class^="well well-material"] {
-    &, .form-control {
+    &, .form-control, .floating-label {
       color: $darkbg-text;
     }
     .form-control {

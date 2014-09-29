@@ -1371,7 +1371,7 @@ body .well, body .jumbotron, .container .well, .container .jumbotron, .container
     background-color: #795548; }
   body .well-material-lightgrey, body .jumbotron-material-lightgrey, .container .well-material-lightgrey, .container .jumbotron-material-lightgrey, .container-fluid .well-material-lightgrey, .container-fluid .jumbotron-material-lightgrey {
     background-color: #ECECEC; }
-body [class^="well well-material"], body [class^="well well-material"] .form-control, .container [class^="well well-material"], .container [class^="well well-material"] .form-control, .container-fluid [class^="well well-material"], .container-fluid [class^="well well-material"] .form-control {
+body [class^="well well-material"], body [class^="well well-material"] .form-control, body [class^="well well-material"] .floating-label, .container [class^="well well-material"], .container [class^="well well-material"] .form-control, .container [class^="well well-material"] .floating-label, .container-fluid [class^="well well-material"], .container-fluid [class^="well well-material"] .form-control, .container-fluid [class^="well well-material"] .floating-label {
   color: rgba(255, 255, 255, 0.84); }
 body [class^="well well-material"] .form-control, .container [class^="well well-material"] .form-control, .container-fluid [class^="well well-material"] .form-control {
   border-bottom-color: rgba(255, 255, 255, 0.84); }
