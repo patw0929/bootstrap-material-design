@@ -31,7 +31,7 @@ $(function (){
           $(this).after($input);
         }
       });
-    });
+    }).trigger("DOMSubtreeModified");
 
     $(document).on("keyup change", ".form-control", function() {
       var self = $(this);
