@@ -1636,7 +1636,7 @@ legend {
     overflow: hidden;
     position: relative; }
     .dropdown-menu li a:hover {
-      background-color: transparent; }
+      background: rgba(0, 0, 0, 0.08); }
 
 .alert {
   border: 0px;
