@@ -48,7 +48,7 @@
 
   // Hide native checkbox
   input[type=checkbox] {
-    display: none;
+    opacity: 0;
   }
 
   input[type=checkbox] ~ .check:before {
@@ -62,7 +62,11 @@
     @include animation(uncheck 300ms ease-out forwards);
   }
 
-  input[type=checkbox]:checked ~ .check:after {
+  input[type=checkbox]:focus ~ .check:after {
+    opacity: 0.2;
+  }
+
+  input[type=checkbox]:checked ~ .check:before {
     @include animation(check 300ms ease-out forwards);
   }
 

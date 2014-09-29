@@ -420,7 +420,7 @@ body .well, body .jumbotron, .container .well, .container .jumbotron, .container
   .checkbox-material-lightgrey .check {
     color: #ECECEC; }
   .checkbox input[type=checkbox] {
-    display: none; }
+    opacity: 0; }
   .checkbox input[type=checkbox] ~ .check:before {
     position: absolute;
     top: 2px;
@@ -434,7 +434,9 @@ body .well, body .jumbotron, .container .well, .container .jumbotron, .container
     -ms-animation: uncheck 300ms ease-out forwards;
     -o-animation: uncheck 300ms ease-out forwards;
     animation: uncheck 300ms ease-out forwards; }
-  .checkbox input[type=checkbox]:checked ~ .check:after {
+  .checkbox input[type=checkbox]:focus ~ .check:after {
+    opacity: 0.2; }
+  .checkbox input[type=checkbox]:checked ~ .check:before {
     -webkit-animation: check 300ms ease-out forwards;
     -moz-animation: check 300ms ease-out forwards;
     -ms-animation: check 300ms ease-out forwards;
